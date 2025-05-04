@@ -20,11 +20,11 @@ echo "Setting up basic .zshrc"
 echo -n > ~/.zshrc
 echo "source ~/.iterm2_shell_integration.zsh" >> ~/.zshrc
 echo 'iterm2_print_user_vars() {
-  iterm2_set_user_var shortPath $( pwd | sed "s/\/Users\/william.wheeler/~/" )
+  iterm2_set_user_var shortPath $( pwd | sed "s/\/Users\/spokey/~/" )
 }' >> ~/.zshrc
 echo "export GOPATH=~/go" >> ~/.zshrc
 echo "export GOBIN=$GOPATH/bin" >> ~/.zshrc
-echo "export PATH=/Applications/MacVim.app/Contents/bin:$PATH:~/homebrew/bin:/Users/william.wheeler/Library/Python/3.9/bin:~/.release/bin:$GOBIN" >> ~/.zshrc
+echo "export PATH=/Applications/MacVim.app/Contents/bin:$PATH:~/homebrew/bin:/Users/spokey/Library/Python/3.9/bin:~/.release/bin:$GOBIN" >> ~/.zshrc
 
 echo '
 alias l="ls -l"
